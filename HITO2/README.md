@@ -50,5 +50,7 @@ En este proyecto, continuaremos personalizando el sitio web OnlyFlans utilizando
 ![PASO8](IMAGENES/Snap%202024-06-05%20at%2019.04.20.png)
 ![PASO9](IMAGENES/Snap%202024-06-05%20at%2019.04.34.png)
 ![PASO10](IMAGENES/Snap%202024-06-05%20at%2019.05.07.png)
+![PASO11](IMAGENES/Snap%202024-06-05%20at%2019.05.17.png)
+![PASO12](IMAGENES/Snap%202024-06-05%20at%2019.05.26.png)
 
 ### FIN
