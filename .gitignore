@@ -1,0 +1,35 @@
+# Ignorar entornos virtuales
+venv/
+env/
+
+# Ignorar archivos compilados de Python
+*.pyc
+__pycache__/
+
+# Ignorar configuraciones del entorno
+*.env
+
+# Ignorar archivos de base de datos de SQLite
+*.sqlite3
+
+# Ignorar migraciones de Django
+*/migrations/
+
+# Ignorar archivos de medios subidos
+media/
+
+# Ignorar el directorio mi_directorio
+mi_directorio/
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de configuración del editor
+.vscode/
+.idea/
+
+# Ignorar archivos creados por el sistema operativo
+.DS_Store
+Thumbs.db
+HITO1/onlyflans_env/
+HITO2/onlyflans_env/
