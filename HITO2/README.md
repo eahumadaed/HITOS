@@ -19,6 +19,9 @@ En este proyecto, continuaremos personalizando el sitio web OnlyFlans utilizando
   - Ruta `/bienvenido`: muestra el texto "bienvenido cliente".
 - Ejecuta el servidor de desarrollo con `python manage.py runserver` y captura pantallazos de cada ruta.
 
+![PASO1](IMAGENES/Snap%202024-06-05%20at%2018.52.33.png)
+![PASO2](IMAGENES/Snap%202024-06-05%20at%2018.35.43.png)
+
 ### 3. Crear una plantilla base
 - Crea una plantilla base llamada `base.html` que incluya los elementos comunes:
   - `header`
@@ -26,6 +29,10 @@ En este proyecto, continuaremos personalizando el sitio web OnlyFlans utilizando
   - `footer`
 - Usa `<div>` con colores de fondo para separar y visualizar mejor los elementos.
 - Extiende `base.html` en las plantillas de las rutas y captura pantallazos de cada una.
+
+![PASO3](IMAGENES/Snap%202024-06-05%20at%2018.50.54.png)
+![PASO4](IMAGENES/Snap%202024-06-05%20at%2018.51.31.png)
+![PASO5](IMAGENES/Snap%202024-06-05%20at%2018.53.23.png)
 
 ### 4. Personalizar las vistas y plantillas
 - Incluye Bootstrap en la plantilla base.
@@ -38,3 +45,12 @@ En este proyecto, continuaremos personalizando el sitio web OnlyFlans utilizando
 - Asegúrate de que el `navbar` tenga enlaces a cada una de las URLs.
 - Captura pantallazos de cada ruta.
 
+![PASO6](IMAGENES/Snap%202024-06-05%20at%2019.03.55.png)
+![PASO7](IMAGENES/Snap%202024-06-05%20at%2019.04.10.png)
+![PASO8](IMAGENES/Snap%202024-06-05%20at%2019.04.20.png)
+![PASO9](IMAGENES/Snap%202024-06-05%20at%2019.04.34.png)
+![PASO10](IMAGENES/Snap%202024-06-05%20at%2019.05.07.png)
+![PASO11](IMAGENES/Snap%202024-06-05%20at%2019.05.17.png)
+![PASO12](IMAGENES/Snap%202024-06-05%20at%2019.05.26.png)
+
+### FIN
