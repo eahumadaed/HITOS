@@ -31,5 +31,4 @@ mi_directorio/
 # Ignorar archivos creados por el sistema operativo
 .DS_Store
 Thumbs.db
-HITO1/onlyflans_env/
-HITO2/onlyflans_env/
+HITO*/*_env/
