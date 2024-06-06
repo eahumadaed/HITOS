@@ -54,6 +54,7 @@ En este proyecto, agregaremos interacción al sitio web OnlyFlans utilizando Dja
 - Crear un formulario en `forms.py`.
 - Crear una vista para manejar el formulario en `views.py`.
 - Crear las plantillas `contact.html` y `exito.html`.
+
 ![Snap 2024-06-06 at 00.25.56](IMAGENES/Snap%202024-06-06%20at%2000.25.56.png)
 ![Snap 2024-06-06 at 00.26.07](IMAGENES/Snap%202024-06-06%20at%2000.26.07.png)
 
