@@ -10,7 +10,7 @@ class Command(BaseCommand):
         fixtures_dir = os.path.join('web', 'base')
 
         # Lista de archivos JSON
-        files = ['Flan.json', 'CategoriasProducto.json', 'usuarios.json']
+        files = ['CategoriasProducto.json', 'Flan.json', 'usuarios.json']
 
         for file in files:
             file_path = os.path.join(fixtures_dir, file)
