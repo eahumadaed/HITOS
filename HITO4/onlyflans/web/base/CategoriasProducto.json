@@ -1,0 +1,1 @@
+[{"model": "web.categoriasproducto", "pk": 1, "fields": {"name": "Flan", "category": "Flanes"}}, {"model": "web.categoriasproducto", "pk": 2, "fields": {"name": "Queque", "category": "Queques"}}, {"model": "web.categoriasproducto", "pk": 3, "fields": {"name": "Torta", "category": "Tortas"}}]

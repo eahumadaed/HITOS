@@ -1,0 +1,227 @@
+[
+{
+    "model": "web.flan",
+    "pk": 1,
+    "fields": {
+        "flan_uuid": "04fed745-e47e-45a1-972b-90527fed40d2",
+        "name": "Flan de Huevo",
+        "description": "El flan clasico hecho con huevos, leche y azucar, cocido a bano Maria y cubierto con caramelo.",
+        "image_url": "https://www.ocu.org/-/media/ocu/images/home/alimentacion/alimentos/flan_apertura_2_800x450.jpg?rev=dc47a4ca-6a36-486d-842a-1f4dfda764dc&mw=660&hash=C5278BCEDA00E1EC7FAEA2691CCD8C87",
+        "slug": "FlandeHuevo",
+        "is_private": true,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 2,
+    "fields": {
+        "flan_uuid": "bea41c3c-f909-4602-9c8d-a04102ffeccd",
+        "name": "Flan de Leche Condensada",
+        "description": "Un flan cremoso y dulce hecho con leche condensada, leche evaporada y huevos. Su textura es mas rica debido a la leche condensada.",
+        "image_url": "https://imag.bonviveur.com/flan-napolitano-foto-principal.jpg",
+        "slug": "Flan2",
+        "is_private": false,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 3,
+    "fields": {
+        "flan_uuid": "b165f70d-baf2-4afd-87d0-48b62f672659",
+        "name": "Flan de Coco",
+        "description": "Este flan incorpora leche de coco y coco rallado, dandole un sabor tropical y una textura ligeramente diferente.",
+        "image_url": "https://cocinaconnoelia.com/wp-content/uploads/2023/08/Flanes-de-huevo-receta-tradicional-scaled.jpg",
+        "slug": "flan3",
+        "is_private": true,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 4,
+    "fields": {
+        "flan_uuid": "1500a570-9ad2-4504-9868-3f953648e984",
+        "name": "Flan de Queso",
+        "description": "Un flan cremoso hecho con queso crema, similar a una tarta de queso pero con la textura suave del flan.",
+        "image_url": "https://content-cocina.lecturas.com/medio/2022/02/10/flanes-caseros_354da1ce_1200x1200.jpg",
+        "slug": "flan4",
+        "is_private": true,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 5,
+    "fields": {
+        "flan_uuid": "60ea5267-af3e-4b08-9119-fed040832264",
+        "name": "Flan Napolitano",
+        "description": "Similar al flan de leche condensada, pero con un toque de vainilla y a veces con un poco de queso crema para enriquecer la textura.",
+        "image_url": "https://content-cocina.lecturas.com/medio/2018/07/19/flanes-de-dos-chocolates_2afadb87_800x800.jpg",
+        "slug": "f5",
+        "is_private": false,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 6,
+    "fields": {
+        "flan_uuid": "90bd0cc2-b887-4c72-83f6-3dc12ae77eb2",
+        "name": "Flan de Cafe",
+        "description": "Flan con un sabor distintivo a cafe, ideal para los amantes de esta bebida. Se puede hacer con cafe fuerte o cafe instantaneo.",
+        "image_url": "https://www.recetasnestle.com.mx/sites/default/files/srh_recipes/54c6cbcbc6d611e056122d64560cd9c1.jpg",
+        "slug": "Flan24",
+        "is_private": true,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 7,
+    "fields": {
+        "flan_uuid": "947435f1-04e1-4850-8178-a71e39f98661",
+        "name": "Flan de Chocolate",
+        "description": "Este flan anade cacao o chocolate derretido a la mezcla base, resultando en un postre delicioso para los amantes del chocolate.",
+        "image_url": "https://cdn0.recetasgratis.net/es/posts/0/8/8/flan_de_caramelo_casero_50880_orig.jpg",
+        "slug": "Flan5",
+        "is_private": false,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 8,
+    "fields": {
+        "flan_uuid": "82a8c971-540b-45b1-9c3b-b644d616ffe5",
+        "name": "Flan de Pina",
+        "description": "Un flan refrescante que incorpora jugo de pina y a veces trozos de pina, ofreciendo un sabor tropical y dulce.",
+        "image_url": "https://s1.elespanol.com/2020/04/19/cocinillas/recetas/postres/azucar-leche-huevo_483712124_150563115_1024x576.jpg",
+        "slug": "ffdfe",
+        "is_private": false,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 9,
+    "fields": {
+        "flan_uuid": "b4fa7af7-67bd-4018-9f13-c87d32322ec5",
+        "name": "Flan de Almendras",
+        "description": "Flan aromatizado con esencia de almendra y, a veces, decorado con almendras laminadas. Ofrece un sabor delicado y sofisticado.",
+        "image_url": "https://mojo.generalmills.com/api/public/content/uQlORPnO2kKEekcwCEPwPg_gmi_hi_res_jpeg.jpeg?v=d05b613b&t=16e3ce250f244648bef28c5949fb99ff",
+        "slug": "FLan1ewrwe",
+        "is_private": false,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 10,
+    "fields": {
+        "flan_uuid": "7a6a9101-df7f-4354-b548-0e185ab813e9",
+        "name": "Queque de nuez",
+        "description": "El queque de nuez es un bizcocho suave y esponjoso hecho con harina, huevos, mantequilla, azucar y una generosa cantidad de nueces picadas. Las nueces aportan un sabor rico y una textura crujiente que complementa la suavidad del queque. A menudo, se aromatiza con vainilla y una pizca de canela para realzar el sabor. Puede servirse simple o con una capa de glaseado de queso crema o azucar glas para un toque adicional de dulzura.",
+        "image_url": "https://i.ytimg.com/vi/U5HA5IcZ7y8/maxresdefault.jpg",
+        "slug": "quequenuez",
+        "is_private": false,
+        "category": [
+            2
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 11,
+    "fields": {
+        "flan_uuid": "4eff9961-c4cc-42b3-97f1-c7748e977334",
+        "name": "Torta de chocolate",
+        "description": "Una clasica torta de chocolate, rica y humeda, cubierta con una capa de ganache de chocolate.",
+        "image_url": "https://www.aki.com.ec/wp-content/uploads/2021/01/foto-receta-pastel-chocolate.jpg",
+        "slug": "Torta_chocolate",
+        "is_private": false,
+        "category": [
+            3
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 12,
+    "fields": {
+        "flan_uuid": "ff2d0f9c-241c-443a-8a16-da6c381ddcc7",
+        "name": "Torta de zanahoria",
+        "description": "Una torta hecha con zanahorias ralladas, especias, y cubierta con glaseado de queso crema.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSefI-1uwbx0JDQBi8JBAUHz8WDm8o8FCUf9Q&s",
+        "slug": "Torta_de_zanahoria",
+        "is_private": false,
+        "category": [
+            3
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 13,
+    "fields": {
+        "flan_uuid": "33c631ca-733a-4bcd-acba-8f3b4f03d61b",
+        "name": "Torta de tres leches",
+        "description": "Un bizcocho esponjoso empapado en tres tipos de leche: evaporada, condensada y crema, y cubierto con crema batida.",
+        "image_url": "https://i.blogs.es/4d76ad/pastel-tres-leches/1366_2000.jpg",
+        "slug": "Torta_de_tres_leches",
+        "is_private": false,
+        "category": [
+            3
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 14,
+    "fields": {
+        "flan_uuid": "eceb4a94-197e-4729-8f4d-904015abacdf",
+        "name": "Torta de limon",
+        "description": "Un bizcocho con sabor a limon, generalmente cubierto con un glaseado de limon.",
+        "image_url": "https://annaspasteleria.com/images/2019post/_videoCover/DSC_9021web.jpg",
+        "slug": "Torta_de_limon",
+        "is_private": false,
+        "category": [
+            3
+        ]
+    }
+},
+{
+    "model": "web.flan",
+    "pk": 15,
+    "fields": {
+        "flan_uuid": "e3f1220f-c5af-40bc-b069-401a36b06fc6",
+        "name": "Torta de fresas con crema",
+        "description": "Bizcocho relleno y cubierto con fresas frescas y crema batida.",
+        "image_url": "https://i.ytimg.com/vi/q_QK8YNrSLY/maxresdefault.jpg",
+        "slug": "torta_fresas",
+        "is_private": false,
+        "category": [
+            3
+        ]
+    }
+}
+]

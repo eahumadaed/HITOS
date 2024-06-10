@@ -32,3 +32,6 @@ mi_directorio/
 .DS_Store
 Thumbs.db
 HITO*/*_env/
+migrations/
+*.bk
+*.bak
