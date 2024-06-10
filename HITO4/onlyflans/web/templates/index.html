@@ -2,10 +2,10 @@
 {% block title %}INDEX{% endblock %}
 
 {% block content %}
-<div class="container">
+
     <div class="row">
         {% for flan in flanes %}
-        <div class="col-md-4">
+        <div class="col-sm-4 mb-3 mb-sm-0 mt-4">
             <div class="card">
                 <img src="{{ flan.image_url }}">
                 <div class="card-body">
@@ -16,5 +16,5 @@
         </div>
         {% endfor %}
     </div>
-</div>
+
 {% endblock %}

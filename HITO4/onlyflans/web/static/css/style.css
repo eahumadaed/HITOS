@@ -1,3 +1,9 @@
-body{
-    background-color: rgb(228, 128, 128);
+.card img{
+    max-width: 500px;
+    max-height: 200px;
+}
+
+.card{
+    max-width: 500px;
+    min-height: 450px;
 }
