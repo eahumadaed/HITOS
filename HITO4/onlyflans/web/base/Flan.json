@@ -140,7 +140,7 @@
     "fields": {
         "flan_uuid": "7a6a9101-df7f-4354-b548-0e185ab813e9",
         "name": "Queque de nuez",
-        "description": "El queque de nuez es un bizcocho suave y esponjoso hecho con harina, huevos, mantequilla, azucar y una generosa cantidad de nueces picadas. Las nueces aportan un sabor rico y una textura crujiente que complementa la suavidad del queque. A menudo, se aromatiza con vainilla y una pizca de canela para realzar el sabor. Puede servirse simple o con una capa de glaseado de queso crema o azucar glas para un toque adicional de dulzura.",
+        "description": "El queque de nuez es un bizcocho suave y esponjoso hecho con harina, huevos, mantequilla, azucar y una generosa cantidad de nueces picadas",
         "image_url": "https://i.ytimg.com/vi/U5HA5IcZ7y8/maxresdefault.jpg",
         "slug": "quequenuez",
         "is_private": false,

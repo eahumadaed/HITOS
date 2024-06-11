@@ -10,17 +10,17 @@
         </h3>
     </div>
 
-    <form action="/contacto/" method="post">
-        {% csrf_token %}
-
-        {{ form.non_field_errors }}
-        {{ form.as_p }}
-        <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
-
-
-
-
+    <div class="row">
+        <div class="col-12">
+            <form action="/contacto/" method="post">
+                {% csrf_token %}
+        
+                {{ form.non_field_errors }}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
 </div>
 
 

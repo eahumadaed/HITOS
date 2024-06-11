@@ -1,5 +1,39 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 body{
+    height: 100%;
+    margin: 0;
+    background-size: cover;
     font-family: "Roboto Mono", monospace;
+    background: linear-gradient(to bottom, #864300, #ffffff) no-repeat;
+}
+
+.icono{
+    position: relative;
+    filter: drop-shadow(-10px 0 5px #58caff);
+    animation: deslinsamiento 2s forwards;
+}
+
+@keyframes deslinsamiento {
+    from {
+        left: -1600px; /* Comienza desde la izquierda */
+    }
+    to {
+        left: 0%; /* Se desliza hacia el centro */
+    }
+}
+.nav-link{
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    font-size: 1.2rem;
+    transform: translateY(-5px);
+    text-shadow: #6e6e6e -15px 10px 5px;
+    transition: 0.5s;
 }
 .card img{
     max-width: 500px;
@@ -8,19 +42,30 @@ body{
 
 .card{
     max-width: 500px;
-    min-height: 600px;
-    box-shadow: #6e6e6e -5px 2px 5px;;
+    min-height: 400px;
+    box-shadow: #6e6e6e -5px 2px 5px;
 }
 
-.nav-link{
-    font-size: 1.1rem;
+input{
+    margin-left: 2%;
+    border-radius: 5px;
 }
-.nav-link:hover{
-    font-size: 1.2rem;
-    transform: translateY(-5px);
-    text-shadow: #6e6e6e -5px 2px 5px;
-}
-
 footer{
+    position: absolute;
+    bottom: -5%;
+    width: 100%;
+    background-color: #f8a047;
     font-size: 1.5rem;
+}
+
+@media (max-width: 1150px) {
+    .icono{
+        max-width: 90%;
+    }
+    h2{
+        text-align: center;
+    }
+    footer{
+        font-size: 1rem;
+    }
 }
