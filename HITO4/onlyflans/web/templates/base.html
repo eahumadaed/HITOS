@@ -1,12 +1,7 @@
 {% include  'header.html' %}
 {% include  'nav.html' %}
 
-<main class="container">
-    {% block content %}{% endblock %}
-</main>
-
 {% if messages %}
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
 <div class="container">
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="logoutModalLabel" aria-hidden="true">
@@ -23,7 +18,7 @@
                     {% endfor %}
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-secondary close" data-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -35,5 +30,9 @@
     });
 </script>
 {% endif %}
+<main class="container">
+    {% block content %}{% endblock %}
+</main>
+
 
 {% include  'footer.html' %}
