@@ -1,3 +1,6 @@
+body{
+    font-family: "Roboto Mono", monospace;
+}
 .card img{
     max-width: 500px;
     max-height: 200px;
@@ -5,5 +8,19 @@
 
 .card{
     max-width: 500px;
-    min-height: 450px;
+    min-height: 600px;
+    box-shadow: #6e6e6e -5px 2px 5px;;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+}
+.nav-link:hover{
+    font-size: 1.2rem;
+    transform: translateY(-5px);
+    text-shadow: #6e6e6e -5px 2px 5px;
+}
+
+footer{
+    font-size: 1.5rem;
 }
