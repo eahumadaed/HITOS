@@ -3,14 +3,20 @@ from django.http import HttpResponseRedirect,HttpResponse
 from .models import Flan, ContacForm,CategoriasProducto
 from .form import ContacFormForm, RegisterForm
 from django.contrib.auth.models import User
-from django.contrib.auth import login
+from django.contrib.auth import login,logout
 from django.views import View
-
+from django.urls import reverse
+from django.contrib import messages
 
 def index(request):
         categorias_flanes = CategoriasProducto.objects.get(name='Flan')
         flanes = Flan.objects.filter(is_private=False,category=categorias_flanes)
         return render(request,'index.html', {'flanes': flanes})
+
+def custom_logout_view(request):
+    logout(request)
+    messages.success(request, "Has cerrado sesión correctamente.")
+    return redirect(reverse('index'))
     
 def about(request):
         return render(request,'about.html')

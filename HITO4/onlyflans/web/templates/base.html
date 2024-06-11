@@ -1,6 +1,39 @@
 {% include  'header.html' %}
 {% include  'nav.html' %}
+
 <main class="container">
     {% block content %}{% endblock %}
 </main>
+
+{% if messages %}
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+<div class="container">
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="logoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="logoutModalLabel">Mensaje</h5>
+                </div>
+                <div class="modal-body">
+                    {% for message in messages %}
+                        <div class="alert alert-success" role="alert">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('#logoutModal').modal('show');
+    });
+</script>
+{% endif %}
+
 {% include  'footer.html' %}
