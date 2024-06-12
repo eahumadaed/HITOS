@@ -4,10 +4,17 @@
 {% block content%}
 
     <h2>Register</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Register</button>
-    </form>
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+            <dix class="col-12 mt-4">
+                <form class="formulario-register" method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit">Register</button>
+                </form>
+            </dix>
+        </div>
+    </div>
+    
 
 {% endblock %}
