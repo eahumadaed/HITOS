@@ -7,6 +7,7 @@ from django.contrib.auth import login,logout
 from django.views import View
 from django.urls import reverse
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 
 
 #Vista del index, el cual solo muestra los productos que son Flan y que no son privados
@@ -23,6 +24,7 @@ def about(request):
         return render(request,'about.html')
 
 #Vista del welcome, el cual solo muestra productos que son Flan y privados
+@login_required
 def welcome(request):
         categorias_flanes = CategoriasProducto.objects.get(name='Flan')  #Obtiene la id de la categoria Flan en la tabla CategoriasProducto
         flanes = Flan.objects.filter(is_private=True,category=categorias_flanes) #Filtra los productos por la ID y el campo is_private
