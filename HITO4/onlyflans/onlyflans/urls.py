@@ -28,6 +28,6 @@ urlpatterns = [
     path('exito/', views.exito, name='exito'),
     path('accounts/',include('django.contrib.auth.urls')),
     path('accounts/register/', views.RegisterView.as_view(), name='register'),
-    path('logout/', views.custom_logout_view, name='logout'),
+    path('logout/', views.custom_logout_view, name='logout'),  #URL para la vista personalidad del logout
 
 ]

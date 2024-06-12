@@ -129,6 +129,7 @@ LOGIN_REDIRECT_URL = '/bienvenido/'
 #LOGOUT_REDIRECT_URL = '/logout'
 
 
+#Seteos para que funcione el sistema de mensajeria.
 from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.DEBUG: 'debug',
