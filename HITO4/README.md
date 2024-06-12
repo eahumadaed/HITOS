@@ -27,17 +27,17 @@ Este proyecto se desarrolla como parte del Hito 4 de Desafío Latam, centrado en
 
 - **Página de Inicio**:
 
-!["inicio"](IMAGENES/Snap_2024-06-12_09.07.13.png)
+![inicio](IMAGENES/Snap_2024-06-12_09.07.13.png)
 
 
 - **Página de Bienvenida**:
 
-!["Bienvenida"](IMAGENES/Snap_2024-06-12_09.11.50.png)
+![Bienvenida](IMAGENES/Snap_2024-06-12_09.11.50.png)
 
 
 - **Panel de Administración**:
 
-!["Administración"](IMAGENES/Snap_2024-06-12_09.11.27.png)
+![Administración](IMAGENES/Snap_2024-06-12_09.11.27.png)
 
 
 ## FIN
