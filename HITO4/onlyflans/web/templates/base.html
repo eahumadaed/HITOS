@@ -18,7 +18,7 @@
                     {% endfor %}
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary close" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-secondary close" data-dismiss="modal" onclick="Cerrarmodal()">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -28,6 +28,9 @@
     $(document).ready(function(){
         $('#logoutModal').modal('show');
     });
+    function Cerrarmodal(){
+        $('#logoutModal').modal('hide');
+    }
 </script>
 {% endif %}
 <main class="container">
